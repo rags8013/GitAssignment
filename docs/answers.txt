@@ -2,3 +2,21 @@ a) 3 commits were done to the repository by the end of step 8 (9 commits overall
 
 b) .gitignore was modified last on Sep 15, 10:29:34
 
+c) Two commits were made to the src folder before I made changes to it.
+   First commit just added 4 files and Sword.java was changed along with one other file addition in the second commit.
+   RoleGame.java was changed once before I made changes to it. It was modified thrice by me.
+   WeaponFactory.java was changed once before I made changes to it. It was modified thrice by me.
+   Weapon.java was committed and no changes were made.
+   BasicWeapon.java was committed and no changes were made.
+   Sword.java was committed once and changed.
+   Arrow.java was committed once.
+   Axe.java was committed once.
+   MagicStaff.java was committed once and changed once to fix an error.
+   
+d) "git log" shows the history of commits where as the "git status" shows the differences between the current snapshot of the local repository and the Head commit.
+
+e) git log -- src/edu/fsu/cs/cen5035/RoleGame.java is the command which gives the details of the commit in which RoleGame.java is one of the files.
+
+f) git log --grep=file
+
+g) git log --author='Alice' --after 09/01/2016 --before 09/16/2016
